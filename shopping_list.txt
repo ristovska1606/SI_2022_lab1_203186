@@ -2,4 +2,4 @@ apple x 2
 banana x 4
 orange x 8
 pineapple x 7
-lemon x 9
+lemon x 19
