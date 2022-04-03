@@ -1,5 +1,6 @@
 apple x 2
-banana x 4
+banana x 5
 orange x 8
 pineapple x 7
 lemon x 9
+plum x 10
