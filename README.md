@@ -1,1 +1,1 @@
-# SI_2022_lab1_203186
+Jana Ristovska 203186
