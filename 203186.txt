@@ -1,0 +1,164 @@
+1. https://github.com/ristovska1606/
+
+2. settings/repositories/update
+
+3. https://github.com/ristovska1606/SI_2022_lab1_203186
+
+4. C:\Users\Jana>git clone https://github.com/ristovska1606/SI_2022_lab1_203186
+C:\Users\Jana>cd SI_2022_lab1_203186
+
+5. C:\Users\Jana\SI_2022_lab1_203186>copy con shopping_list.txt
+apple
+banana
+orange
+pineapple
+lemon
+C:\Users\Jana\SI_2022_lab1_203186>git add shopping_list.txt
+C:\Users\Jana\SI_2022_lab1_203186>git commit -m  "Add 5 items to the shopping list"
+
+6. C:\Users\Jana\SI_2022_lab1_203186>copy con shopping_list.txt
+apple x2
+Overwrite shopping_list.txt? (Yes/No/All): y
+banana x4
+orange x4
+pineapple x1
+lemon x6
+C:\Users\Jana\SI_2022_lab1_203186>git add shopping_list.txt
+C:\Users\Jana\SI_2022_lab1_203186>git commit -m "Add quantities to the items."
+
+7. C:\Users\Jana\SI_2022_lab1_203186>git branch branch1
+C:\Users\Jana\SI_2022_lab1_203186>git branch branch2
+
+8. C:\Users\Jana\SI_2022_lab1_203186>git log
+commit dbdf0d8913f8255a35ca97df581f942633087399 (HEAD -> master, branch2, branch1)
+Author: ristovska1606 <ristovskajana@gmail.com>
+Date:   Tue Mar 29 17:16:27 2022 +0200
+
+    Add quantities to the items.
+
+commit baa1361f4f085e9e3d3d131811d25d6e2bbca80f
+Author: ristovska1606 <ristovskajana@gmail.com>
+Date:   Tue Mar 29 17:13:27 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit d208692d2a37ee4486ad2ab57d2583b7aea641c2 (origin/master, origin/HEAD)
+Author: Jana Ristovska <76064707+ristovska1606@users.noreply.github.com>
+Date:   Tue Mar 29 17:02:32 2022 +0200
+
+    Update README.md
+
+commit 0d852b1221f9b27f7ee031d7ec9a3a0caf94914d
+Author: Jana Ristovska <76064707+ristovska1606@users.noreply.github.com>
+Date:   Tue Mar 29 17:00:13 2022 +0200
+
+    Initial commit
+
+9. C:\Users\Jana\SI_2022_lab1_203186>git pull
+C:\Users\Jana\SI_2022_lab1_203186>git push
+
+10. C:\Users\Jana\SI_2022_lab1_203186>git checkout branch1
+
+11. C:\Users\Jana\SI_2022_lab1_203186>git add shopping_list.txt
+C:\Users\Jana\SI_2022_lab1_203186>git commit -m "Change quantity of item #5"
+
+12. C:\Users\Jana\SI_2022_lab1_203186>git checkout master
+
+13. C:\Users\Jana\SI_2022_lab1_203186>git add shopping_list.txt
+C:\Users\Jana\SI_2022_lab1_203186>git commit -m "Change quantity of item #2"
+
+14. C:\Users\Jana\SI_2022_lab1_203186>git pull
+C:\Users\Jana\SI_2022_lab1_203186>git push
+
+15. C:\Users\Jana\SI_2022_lab1_203186>git checkout branch2
+
+16. C:\Users\Jana\SI_2022_lab1_203186>git add shopping_list.txt
+C:\Users\Jana\SI_2022_lab1_203186>git commit -m "Modify item #4"
+
+17. C:\Users\Jana\SI_2022_lab1_203186>git log
+commit e16b120d48e62f878911a76607516444cba14ac9 (HEAD -> branch2)
+Author: ristovska1606 <ristovskajana@gmail.com>
+Date:   Tue Mar 29 17:40:55 2022 +0200
+
+    Modify item #4
+
+commit dbdf0d8913f8255a35ca97df581f942633087399
+Author: ristovska1606 <ristovskajana@gmail.com>
+Date:   Tue Mar 29 17:16:27 2022 +0200
+
+    Add quantities to the items.
+
+commit baa1361f4f085e9e3d3d131811d25d6e2bbca80f
+Author: ristovska1606 <ristovskajana@gmail.com>
+Date:   Tue Mar 29 17:13:27 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit d208692d2a37ee4486ad2ab57d2583b7aea641c2
+Author: Jana Ristovska <76064707+ristovska1606@users.noreply.github.com>
+Date:   Tue Mar 29 17:02:32 2022 +0200
+
+    Update README.md
+
+commit 0d852b1221f9b27f7ee031d7ec9a3a0caf94914d
+Author: Jana Ristovska <76064707+ristovska1606@users.noreply.github.com>
+Date:   Tue Mar 29 17:00:13 2022 +0200
+
+    Initial commit
+
+18. C:\Users\Jana\SI_2022_lab1_203186>git add shopping_list.txt
+C:\Users\Jana\SI_2022_lab1_203186>git commit --amend -m "Modify item #4 and add item #6"
+
+19. C:\Users\Jana\SI_2022_lab1_203186>git log
+commit 33f3efbf6fb630865091eda9165184e6eb445fc9 (HEAD -> branch2)
+Author: ristovska1606 <ristovskajana@gmail.com>
+Date:   Tue Mar 29 17:40:55 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit dbdf0d8913f8255a35ca97df581f942633087399
+Author: ristovska1606 <ristovskajana@gmail.com>
+Date:   Tue Mar 29 17:16:27 2022 +0200
+
+    Add quantities to the items.
+
+commit baa1361f4f085e9e3d3d131811d25d6e2bbca80f
+Author: ristovska1606 <ristovskajana@gmail.com>
+Date:   Tue Mar 29 17:13:27 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit d208692d2a37ee4486ad2ab57d2583b7aea641c2
+Author: Jana Ristovska <76064707+ristovska1606@users.noreply.github.com>
+Date:   Tue Mar 29 17:02:32 2022 +0200
+
+    Update README.md
+
+commit 0d852b1221f9b27f7ee031d7ec9a3a0caf94914d
+Author: Jana Ristovska <76064707+ristovska1606@users.noreply.github.com>
+Date:   Tue Mar 29 17:00:13 2022 +0200
+
+    Initial commit
+
+20. C:\Users\Jana\SI_2022_lab1_203186>git checkout master
+C:\Users\Jana\SI_2022_lab1_203186>git merge branch1
+Не настана конфликт и е употребено рекурзивно спојување.
+
+21. C:\Users\Jana\SI_2022_lab1_203186>git merge branch2
+Настана конфликт, во линија 4 и 6 во shopping_list.txt.
+apple x2
+banana x12
+orange x4
+<<<<<<< HEAD
+pineapple x1
+lemon x10
+=======
+pear x1
+lemon x10
+avocado x5
+>>>>>>> branch2
+Го поправив конфликтот, така што ги избришав промените од HEAD делот. На крај направив: C:\Users\Jana\SI_2022_lab1_203186>git add shopping_list.txt
+C:\Users\Jana\SI_2022_lab1_203186>git commit -m "Resolved merge conflict"
+C:\Users\Jana\SI_2022_lab1_203186>git merge branch2
+Добив порака: Already up to date.
+
